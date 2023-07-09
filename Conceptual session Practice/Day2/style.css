@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* nav section start */
+.nav-container {
+  display: flex;
+  background-color: gray;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menus {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  font-size: 17px;
+}
+
+/* banner section start */
+.banner-container {
+  height: 100vh;
+  background-image: url("image/background.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.title {
+  color: white;
+  font-size: 55px;
+  font-weight: bold;
+}
+.primary {
+  color: red;
+}
+
+.description {
+  color: white;
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+}
+.btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px rgb(43, 20, 20);
+  font-weight: 500;
+  margin-right: 10px;
+}
+.bg-primary {
+  background-color: red;
+  color: white;
+}
+/* service section started */
+
+.service-container {
+  height: 100vh;
+  background-image: url("image/footer-bg.png"),
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
