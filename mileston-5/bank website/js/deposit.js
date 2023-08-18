@@ -11,6 +11,7 @@ document.getElementById("btn-deposit").addEventListener("click", function () {
   const depositTotalElement = document.getElementById("deposit-total");
   const ExistingTotalDepositString = depositTotalElement.innerText;
   const ExistingTotalDeposit = parseFloat(ExistingTotalDepositString);
+
   //step-4: add numbers to set the total deposit
 
   const CurrentDepositTotal = ExistingTotalDeposit + newDepositAmount;
